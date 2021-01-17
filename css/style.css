@@ -28,13 +28,13 @@ h1{
 }
 .center_div{
   width: 15rem;
-  height: 15rem;
+  height: 50rem;
   position: relative;
 }
 .rot{
   position: absolute;
   width: 15rem;
-  height: 50rem;
+  height: 15rem;
   border-right: 0.3rem solid #fff;
   border-radius: 50%;
   animation: rot 2s linear infinite;
