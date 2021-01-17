@@ -13,3 +13,11 @@ hamburger.addEventListener('click', () => {
   header.classList.toggle('toggled');
   hamburger.classList.toggle('toggleIsOn');
 });
+
+// Preloader
+
+var preloader = document.getElementById('loading');
+
+function myFunction(){
+  preloader.style.display = 'none'
+}
