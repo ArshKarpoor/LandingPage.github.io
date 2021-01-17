@@ -34,7 +34,7 @@ h1{
 .rot{
   position: absolute;
   width: 15rem;
-  height: 15rem;
+  height: 50rem;
   border-right: 0.3rem solid #fff;
   border-radius: 50%;
   animation: rot 2s linear infinite;
