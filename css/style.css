@@ -9,6 +9,46 @@
   overflow-x: hidden;
 }
 
+#loading {
+
+}
+.main_div{
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: grid;
+  place-items: center;
+}
+h1{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+}
+.center_div{
+  width: 15rem;
+  height: 15rem;
+  position: relative;
+}
+.rot{
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  border-right: 0.3rem solid #fff;
+  border-radius: 50%;
+  animation: rot 2s linear infinite;
+}
+@keyframes rot {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
 html {
   scroll-behavior: smooth;
 }
