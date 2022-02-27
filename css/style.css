@@ -248,3 +248,37 @@ main a:hover {
     display: none;
   }
 }
+
+
+#work {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  background-position: center;
+}
+
+.work {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.work h2 {
+  font-size: 2rem;
+}
+
+
+#services {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  color: #000;
+  background-position: center;
+}
+
+.services {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services h2 {
+  font-size: 2rem;
+}
